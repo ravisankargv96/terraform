@@ -1,0 +1,5 @@
+gcp_project     = "ravi-project-442017-c0"
+gcp_region1     = "us-central1"
+machine_type    = "e2-small"
+environment     = "dev"
+business_divison = "sap"
