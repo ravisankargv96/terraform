@@ -316,7 +316,7 @@ resource "google_compute_region_backend_service" "mylb" {
 }
 
 # Resource: Regional URL Map
-resource "google_compute_region_url_map" "name" {
+resource "google_compute_region_url_map" "mylb" {
   name = "${local.name}-mylb-url-map"
   default_service = google_compute_region_backend_service.mylb.self_link  
 }
